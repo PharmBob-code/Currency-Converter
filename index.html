@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css" rel="stylesheet">
+    <link rel="stylesheet" href="./file:///C:/Users/BOB/Desktop/TECH/icons/bootstrap-5.3.2-dist/css/bootstrap.css.map">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+     <!-- <section class="google-inspiration">
+        <section class="first-box">
+            <div class="title-container">
+                <h1>Select Currency</h1>
+            </div>
+    
+            <div class="list-container">
+                <div class="link-box">
+                    <div class="flag">
+    
+                    </div>
+    
+                    <div class="country-currency">
+                        <h3>USD</h3>
+                    </div>
+    
+                    <div class="description">
+                        <p>United State Dollars</p>
+                    </div>
+                </div>
+    
+                <div class="link-box">
+                    <div class="flag">
+    
+                    </div>
+    
+                    <div class="country-currency">
+                        <h3>Euro</h3>
+                    </div>
+    
+                    <div class="description">
+                        <p>Euro</p>
+                    </div>
+                </div>
+    
+                <div class="link-box">
+                    <div class="flag">
+    
+                    </div>
+    
+                    <div class="country-currency">
+                        <h3>AUD</h3>
+                    </div>
+    
+                    <div class="description">
+                        <p>Austrailian Dollar</p>
+                    </div>
+                </div>
+    
+                <div class="link-box">
+                    <div class="flag">
+    
+                    </div>
+    
+                    <div class="country-currency">
+                        <h3>CZK</h3>
+                    </div>
+    
+                    <div class="description">
+                        <p>United State Dollars</p>
+                    </div>
+                </div>
+    
+                <div class="link-box">
+                    <div class="flag">
+    
+                    </div>
+    
+                    <div class="country-currency">
+                        <h3>GBP</h3>
+                    </div>
+    
+                    <div class="description">
+                        <p>British Pounds</p>
+                    </div>
+                </div>
+    
+                <div class="link-box">
+                    <div class="flag">
+    
+                    </div>
+    
+                    <div class="country-currency">
+                        <h3>NGN</h3>
+                    </div>
+    
+                    <div class="description">
+                        <p>Nigerian Naira</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section class="first-box">
+            <div class="title-container">
+                <h1>Currency Converter</h1>
+            </div>
+    
+            <div class="list-container">
+                <div class="first-currency">
+                    <div class="big-flag">
+    
+                    </div>
+    
+                    <div class="content">
+                        <div class="currency-icon">
+                            <h3>Euro</h3>
+    
+                            <i class="bi bi-drop-down"></i>
+                        </div>
+                    </div>
+                </div>
+    
+                <div class="divider">
+    
+                </div>
+            </div>
+        </section>
+    </section>  -->
+
+    <section class="figma-inspiration">
+        <div class="main-container">
+            <div class="title-container">
+                <h1>Currency Converter</h1>
+            </div>
+
+            <div class="content-container">
+               <div class="left">
+                <form class="form">
+                    <div class="amount">
+                        <label for="fname">Enter Amount</label>
+                        <input type="number" id="amount" name="amount">
+                    </div>
+
+                    <div class="convert-box">
+                        <div class="from">
+                            <label for="from-curr">From</label>
+                            <div class="select-input">
+                                <img src="https://flagcdn.com/48x36/us.png" alt="usa-flag">
+                                <select class="select" id="from-select"></select>
+                            </div>
+                            
+                    
+                        </div>
+                        <div class="reverse"><i class="fas fa-exchange-alt">
+                            
+                        </i></div>
+                        <div class="to">
+                            <label for="to-curr">To</label>
+                            <div class="select-input">
+                                <img src="https://flagcdn.com/48x36/eu.png"alt="euro-flag">
+                                <select name="to-curr" class="select" id="to-select">
+                                    
+                                </select>
+                            </div>
+                   
+                        </div>
+                    </div>
+                    <button class="btn" id="btn">Get Exchange Rate</button>
+                </form>
+               </div>
+
+               <div class="right">
+                    <div class="title-container-right">
+                        <h4>EXCHANGE RATE US TO AUSTRALIAN DOLLAR</h4>
+                    </div>
+
+                    <div class="bottom-content">
+                        <p>Amount</p>
+                        <div class="amount-box">
+                            <p>7 USD =</p>
+                            <div class="number-container">
+                                <h1>10.54<span class="dark">654</span><span  class="gray">  AUD</span></h1>
+                            </div>
+                        </div>
+                        <div class="date-time">
+                            <p>March 15 2024 1:15UTC</p>
+                        </div>
+                    </div>
+               </div>
+            </div>
+        </div>
+
+      
+          
+    </section>
+    
+
+
+    <script src="./js/apikey.js"></script>
+    <script src="./js/currency.js"></script>
+    <script src="./index.js"></script>
+</body>
+</html>
